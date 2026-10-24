@@ -1,0 +1,23 @@
+name: GFS Scan
+on:
+  schedule:
+    - cron: '30 2 * * 1-5'   # 08:00 IST, Mon-Fri
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance pandas requests
+      - run: python gfs_scanner.py
+      - run: |
+          git config user.name "gfs-bot"
+          git config user.email "gfs-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "GFS scan $(date -u +%F)" || echo "No changes"
+          git push
