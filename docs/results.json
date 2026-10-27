@@ -1,47 +1,7 @@
 {
- "generated": "2026-10-27T07:51+05:30",
+ "generated": "2026-10-27T23:52+05:30",
  "universe": 501,
  "skipped": 2,
- "count": 3,
- "stocks": [
-  {
-   "Symbol": "SANSERA",
-   "SignalDate": "2026-10-23",
-   "Close": 3978.0,
-   "MonthlyRSI": 73.8,
-   "WeeklyRSI": 62.0,
-   "DailyRSI": 42.7,
-   "Entry": 4046.0,
-   "StopLoss": 3903.4,
-   "Target": 4473.8,
-   "Risk/Share": 142.6,
-   "Risk%": 3.52
-  },
-  {
-   "Symbol": "REDINGTON",
-   "SignalDate": "2026-10-26",
-   "Close": 366.75,
-   "MonthlyRSI": 64.5,
-   "WeeklyRSI": 60.3,
-   "DailyRSI": 42.8,
-   "Entry": 372.4,
-   "StopLoss": 350.2,
-   "Target": 439.0,
-   "Risk/Share": 22.2,
-   "Risk%": 5.96
-  },
-  {
-   "Symbol": "STLTECH",
-   "SignalDate": "2026-10-23",
-   "Close": 826.65,
-   "MonthlyRSI": 80.4,
-   "WeeklyRSI": 62.0,
-   "DailyRSI": 43.3,
-   "Entry": 840.0,
-   "StopLoss": 760.85,
-   "Target": 1077.45,
-   "Risk/Share": 79.15,
-   "Risk%": 9.42
-  }
- ]
+ "count": 0,
+ "stocks": []
 }
